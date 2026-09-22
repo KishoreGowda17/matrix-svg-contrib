@@ -45,19 +45,37 @@ export const defaultConfig: MatrixConfig = {
     maxDelay: 4.8,
   },
   themes: {
+    // dark: {
+    //   bg: "#090d0a",
+    //   ce: "#101712",
+    //   cb: "#090d0a",
+    //   rainHead: "rgba(40, 220, 80, 0.25)",
+    //   rainTrail: "rgba(0, 140, 50, 0.12)",
+    //   flashPhosphor: "#26e646",
+    //   c1: "#0a3a1b",
+    //   c2: "#006622",
+    //   c3: "#00a838",
+    //   c4: "#22d744",
+    //   legendColor: "rgba(38, 230, 70, 0.65)",
+    // },
     dark: {
-      bg: "#090d0a",
-      ce: "#101712",
-      cb: "#090d0a",
-      rainHead: "rgba(40, 220, 80, 0.25)",
-      rainTrail: "rgba(0, 140, 50, 0.12)",
-      flashPhosphor: "#26e646",
-      c1: "#0a3a1b",
-      c2: "#006622",
-      c3: "#00a838",
-      c4: "#22d744",
-      legendColor: "rgba(38, 230, 70, 0.65)",
-    },
+  bg: "#090d0a",
+  ce: "#101712",
+  cb: "#090d0a",
+
+  // Keep Matrix rain green
+  rainHead: "rgba(40, 220, 80, 0.25)",
+  rainTrail: "rgba(0, 140, 50, 0.12)",
+
+  // Contributions = shiny red
+  flashPhosphor: "#ff1744",
+  c1: "#3d0710",
+  c2: "#780014",
+  c3: "#d50032",
+  c4: "#ff1744",
+
+  legendColor: "rgba(255, 23, 68, 0.65)",
+},
     light: {
       bg: "#ffffff",
       ce: "#e1e4e8",
