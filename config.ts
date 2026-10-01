@@ -68,11 +68,11 @@ export const defaultConfig: MatrixConfig = {
   rainTrail: "rgba(0, 140, 50, 0.12)",
 
   // Contributions = shiny red
-  flashPhosphor: "#ff1744",
-  c1: "#3d0710",
-  c2: "#780014",
-  c3: "#d50032",
-  c4: "#ff1744",
+  flashPhosphor: "#0ce4e4",
+  c1: "#180346",
+  c2: "#270981",
+  c3: "#170bb8",
+  c4: "#17a2ff",
 
   legendColor: "rgba(255, 23, 68, 0.65)",
 },
